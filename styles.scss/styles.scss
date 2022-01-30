@@ -26,9 +26,8 @@ body {
     grid-template-areas: 
     " header header header" 
     " producto producto producto"
-    " publicidad publicidad publicidad"
     " footer footer footer";
-    grid-template-rows: 100px auto auto 200px;
+    grid-template-rows: 100px auto 200px;
     grid-template-columns: 1fr 3fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -129,13 +128,6 @@ header {
     grid-area: producto;
     padding: 5px;
     
-}
-
-.publicidad {
-    grid-area: publicidad;
-    display: inline-flex;
-    padding: 5px;
-    justify-content: space-around;
 }
 
 footer {
